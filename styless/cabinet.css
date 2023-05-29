@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #202846;
+    padding: 0.5rem;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu-item:hover a {
+    color: #AEAEE2;
+    transition: all .4s;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+}
+
+.lang p {
+    margin: 0 0 0 1rem;
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.layer-name {
+    background-color: #C6C6DC;
+    color: #202846;
+    font-size: 3rem;
+    padding: 2.65rem 0;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    margin: 2.56rem auto 2.62rem;
+    width: 70%;
+    background: #BDBDC6;
+    color: #353C57;
+}
+
+.card-setting {
+    width: 35%;
+    text-align: center;
+    padding-top: 4.81rem;
+}
+
+.card-setting a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.card-setting a:nth-child(3) {
+    background-color: #69749B;
+    margin-top: 2.37rem;
+    padding: .6rem 2rem;
+    border-radius: 3.12rem;
+}
+
+.card-setting a:nth-child(5) {
+    background: #484A54;
+    margin: 1.37rem 0 4.81rem 0;
+    padding: .6rem 2rem;
+    border-radius: 3.12rem;
+}
+
+.card-info {
+    align-self: center;
+    width: 60%;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 2.93rem;
+    padding: 0 3.87rem 0 0;
+}
+
+.card-info span {
+    font-weight: 400;
+}
+
+.card-info p, .card-info hr {
+    margin: 0;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn-btn {
+    display: inline-block;
+    background: #202846;
+    color: #FFFFFF;
+    padding: .6rem 2rem;
+    border-radius: 3.12rem;
+    font-size: 1.68rem;
+}
+
+footer {
+    background-color: #202846;
+    color: white;
+    padding: 1.4rem 5rem;
+    margin-top: 13.68rem;
+    font-size: 2.25rem;
+    font-style: italic;
+}

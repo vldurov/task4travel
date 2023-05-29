@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DCDCDC;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #202846;
+    padding: 0.5rem;
+}
+
+.to-top {
+    position: fixed;
+    bottom: 12%;
+    right: 1%;
+}
+
+.to-top a {
+    display: block;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu-item:hover a {
+    color: #AEAEE2;
+    transition: all .4s;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+}
+
+.lang p {
+    margin: 0 0 0 1rem;
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.layer-name {
+    background-color: #C6C6DC;
+    color: #202846;
+    font-size: 3rem;
+    padding: 2.65rem 0;
+    
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.choose-house {
+    margin: 3.5rem 0;
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 1.16rem;
+    background: rgba(232, 232, 232, 1);
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.choose-house img {
+    float: right;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: #BDBDC6;
+    margin: 2.25rem 0;
+}
+
+.card:hover {
+    background: #AEAEE2;
+    box-shadow: 5px 5px 30px rgba(0, 0, 255, 0.25);
+    transition: all .4s;
+}
+
+.card-img {
+    width: 40%;
+    align-self: center;
+    overflow: auto;
+}
+
+.card-text {
+    width: 55%;
+    padding: 1.5rem;
+    font-size: 1.375rem;
+    color: #202846;
+} 
+
+hr {
+    margin-top: 0;
+}
+
+.card-text span {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.card-subtext {
+    text-align: center;
+    background: #D7D7DD;
+    padding: 1.5rem;
+    line-height: 28px;
+}
+
+.card-img img {
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.card-favorite {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.card-favorite svg:hover path {
+    fill: #FFFF00;
+    transition: all .4s;
+}
+
+.btn {
+    position: absolute;
+    bottom: .625rem; 
+    right: -3rem;
+    background: #202846;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    border-radius: 3.125rem;
+    padding: .7rem 2rem;
+}
+
+.btn:hover {
+    background-color: #EF075B;
+    transition: all .4s;
+}
+
+footer {
+    background-color: #202846;
+    color: white;
+    padding: 1.4rem 5rem;
+    margin-top: 16.68rem;
+    font-size: 2.25rem;
+    font-style: italic;
+}

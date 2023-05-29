@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #202846;
+    padding: 0.5rem;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu-item:hover a {
+    color: #AEAEE2;
+    transition: all .4s;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+}
+
+.lang p {
+    margin: 0 0 0 1rem;
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.layer-name {
+    background-color: #C6C6DC;
+    color: #202846;
+    font-size: 3rem;
+    padding: 2.65rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact {
+    justify-content: space-between;
+    display: flex;
+    margin: 3.93rem auto 0;
+    width: 70%;
+    font-size: 2rem;
+}
+
+.contact div {
+    width: 25%;
+}
+
+.contact p:last-child, .contact a {
+    font-size: 1.87rem;
+    text-decoration: none;
+    color: black;
+}
+
+.adres {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 3.25rem auto 0;
+    font-size: 2rem;
+}
+
+.adres p:last-child {
+    font-size: 1.87rem;
+}
+
+footer {
+    background-color: #202846;
+    color: white;
+    padding: 1.4rem 5rem;
+    margin-top: 4rem;
+    font-size: 2.25rem;
+    font-style: italic;
+}
